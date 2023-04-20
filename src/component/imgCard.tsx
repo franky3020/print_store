@@ -12,7 +12,7 @@ export default function ImgCard() {
 
             <div className="flex items-center mb-4 ml-1">
                 <img
-                    className="rounded-full"
+                    className="rounded-full  "
                     src="https://picsum.photos/30/30"
                     alt="Katherine Johnson"
                 />
@@ -20,14 +20,14 @@ export default function ImgCard() {
             </div>
 
             <div className="flex justify-center">
-                <img
+                <img className="rounded-lg"
                     src="https://picsum.photos/200/200"
                     alt="Katherine Johnson"
                 />
             </div>
 
             <div className="flex justify-center m-4 ">
-                <button className="rounded-full bg-emerald-200 p-1 drop-shadow-lg hover:bg-emerald-600">購買</button>
+                <button className="min-w-full rounded-full bg-emerald-200 p-1 drop-shadow-lg hover:bg-emerald-600">購買</button>
             </div>
         </div>
     )
